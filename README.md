@@ -1,2 +1,2 @@
-# test_01
-first repository for testing reason
+# my_blocklists
+My personal Pihole blocklists.

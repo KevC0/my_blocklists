@@ -1,0 +1,18 @@
+# Explicit regex whitelist for Pihole by KevCo
+# Last updated: Nov. 2025
+
+# NOTE: Must be added manually
+
+# Github
+(\.|^)githubusercontent\.com$
+(\.|^)github\.com$
+
+# NTP pool
+(\.|^)pool\.ntp\.org$
+
+# Company VPN
+(\.|^)sslvpn-europe\.burkert\.com$
+
+# Others (optional)
+(\.|^)redgifs.com$
+

@@ -1,0 +1,51 @@
+# Explicit regex blacklist for Pihole by KevCo
+# Last updated: Nov. 2025
+
+# NOTE: Must be added manually
+
+
+# Youtube ads
+^rr[12345].+\.googlevideo\.com
+
+# Crypto miner
+(^|\.)coin-hive\.com$
+xmr\.
+.pool\.com
+.pool\.org
+
+# Gambling
+(^|\.)easygamepromo\.com$
+
+# Pornographic
+(^|\.)freehookupaffair\.com$
+(^|\.)tsyndicate\.com$
+(^|\.)livejasmin\.com$
+(^|\.)www\.dynsrvaz\.com$
+(^|\.)cradver\.livejasmin\.com$
+(^|\.)rvklk\.timetodate\.net$
+(^|\.)rvklk$
+
+# Advertisment / Tracking / Telemetry etc.
+(^|\.)plista\.com$
+^(.+[_.-])?ad[sxv]?[0-9]*[_.-]
+^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
+^(.+[_.-])?telemetry[_.-]
+^(www[0-9]*\.)?xn--
+^adim(age|g)s?[0-9]*[_.-]
+^adtrack(er|ing)?[0-9]*[_.-]
+^advert(s|is(ing|ements?))?[0-9]*[_.-]
+^aff(iliat(es?|ion))?[_.-]
+^banners?[_.-]
+^beacons?[0-9]*[_.-]
+^count(ers?)?[0-9]*[_.-]
+^mads\.
+^pixels?[-.]
+^stat(s|istics)?[0-9]*[_.-]
+^track(ing)?[0-9]*[_.-]
+(\.|^)a\.adtng\.com$
+(^|\.)cdnegc\.trafficfactory\.biz$
+^analytics?[_.-]
+(\.|^)ads.traffichunt.com$
+(\.|^)cdn.itsup.com$
+
+# Other / unknown

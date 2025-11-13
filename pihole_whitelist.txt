@@ -1,0 +1,107 @@
+# Explicit whitelist for Pihole by KevCo
+# Last updated: Nov. 2025
+
+# Commonly whitelisted domains, see: https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+
+
+# Google services (Android, Maps, etc.)
+
+android.clients.google.com
+clients1.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+clients6.google.com
+connectivitycheck.android.com
+connectivitycheck.gstatic.com
+
+# YouTube history
+
+s.youtube.com 
+video-stats.l.google.com
+
+# Microsoft services (Windows updates, Office, etc.)
+
+v10.vortex-win.data.microsoft.com
+v20.vortex-win.data.microsoft.com
+settings-win.data.microsoft.com
+www.msftncsi.com
+ipv6.msftncsi.com
+dl.delivery.mp.microsoft.com
+geo-prod.do.dsp.mp.microsoft.com
+displaycatalog.mp.microsoft.co
+s.gateway.messenger.live.com
+client-s.gateway.messenger.live.com
+m.hotmail.com
+
+# Amazon services
+
+msh.amazon.com
+aax-eu.amazon.de
+aax-eu.amazon-adsystem.com
+fls-eu.amazon.com
+mas-sdk.amazon.com
+kinesis.us-east-1.amazonaws.com
+s3.amazonaws.com
+unagi-na.amazon.com
+device-metrics-us.amazon.com
+device-metrics-us-2.amazon.com
+dp-discovery-na-ext.amazon.com
+
+# Mozilla Firefox
+
+settings.crashlytics.com
+stun.services.mozilla.com
+tracking-protection.cdn.mozilla.net
+
+# Link/URL shortener
+
+www.bit.ly
+bit.ly
+ow.ly
+goo.gl
+tinyurl.com
+t.ly
+
+# Netflix
+netflix.com
+ichnaea.netflix.com
+nrdp.nccp.netflix.com
+customerevents.netflix.com
+
+# Gaming (Playstation, Steam, etc.)
+smetrics.aem.playstation.com
+telemetry.api.playstation.com
+store.steampowered.com
+prod-telemetry.paradox-interactive.com
+
+# Dropbox
+dl.dropbox.com
+dl.dropboxusercontent.com
+ns1.dropbox.com
+ns2.dropbox.com
+
+# TuneIn
+clicks.tunein.com
+event.platform.tunein.com
+
+# Symantec / Akamai
+
+# sa.symcb.com
+# s1.symcb.com
+# s2.symcb.com
+# s3.symcb.com
+# s4.symcb.com
+# s5.symcb.com
+
+# Some other websites
+
+# ocsp.apple.com
+# api.ipify.org
+# hub.docker.com
+# go.correctiv.org
+
+# Regex whitelist
+
+(\.|^)redgifs.com$

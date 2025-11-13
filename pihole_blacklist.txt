@@ -3,19 +3,15 @@
 
 
 # Youtube ads
-
 ^rr[12345].+\.googlevideo\.com
 
 # Meta (Facebook, Instagram, etc.)
-
 mqtt-mini.facebook.com
 
 # Huawei cloud
-
 hag-dre.ai.hicloud.com
 
 # Crypto miner
-
 coin-hive.com
 www.coin-hive.com
 (^|\.)coin-hive\.com$
@@ -24,12 +20,10 @@ xmr\.
 .pool\.org
 
 # Gambling
-
 easygamepromo.com
 (^|\.)easygamepromo\.com$
 
 # Pornographic
-
 cradver.livejasmin.com
 de.bongacams.com
 adserver.exoticads.com
@@ -42,7 +36,6 @@ adserver.exoticads.com
 (^|\.)rvklk$
 
 # Advertisment / Tracking / Telemetry etc.
-
 query.yahooapis.com
 syndication.realsrv.com
 cdn.m-pathy.com
@@ -76,6 +69,5 @@ cdnegc.trafficfactory.biz/banners
 (\.|^)cdn.itsup.com$
 
 # Other / unknown
-
 a3rmgo6lylh7yn.us-east-1.prod.service.minerva.devices.a2z.com
 cp.cbbp1.com

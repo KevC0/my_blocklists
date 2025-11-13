@@ -140,6 +140,3 @@ sa.symcb.com
 ocsp.apple.com
 api.ipify.org
 hub.docker.com
-
-# Regex whitelist
-(\.|^)redgifs.com$

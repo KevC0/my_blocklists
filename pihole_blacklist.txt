@@ -2,9 +2,6 @@
 # Last updated: Nov. 2025
 
 
-# Youtube ads
-^rr[12345].+\.googlevideo\.com
-
 # Meta (Facebook, Instagram, etc.)
 mqtt-mini.facebook.com
 
@@ -14,15 +11,9 @@ hag-dre.ai.hicloud.com
 # Crypto miner
 coin-hive.com
 www.coin-hive.com
-(^|\.)coin-hive\.com$
-xmr\.
-.pool\.com
-.pool\.org
 
 # Gambling
 easygamepromo.com
-(^|\.)easygamepromo\.com$
-
 # Pornographic
 cradver.livejasmin.com
 de.bongacams.com
@@ -44,29 +35,8 @@ farm-de.plista.com
 static-de.plista.com
 click.plista.com
 www.plista.com
-(^|\.)plista\.com$
-^(.+[_.-])?ad[sxv]?[0-9]*[_.-]
-^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
-^(.+[_.-])?telemetry[_.-]
-^(www[0-9]*\.)?xn--
-^adim(age|g)s?[0-9]*[_.-]
-^adtrack(er|ing)?[0-9]*[_.-]
-^advert(s|is(ing|ements?))?[0-9]*[_.-]
-^aff(iliat(es?|ion))?[_.-]
-^banners?[_.-]
-^beacons?[0-9]*[_.-]
-^count(ers?)?[0-9]*[_.-]
-^mads\.
-^pixels?[-.]
-^stat(s|istics)?[0-9]*[_.-]
-^track(ing)?[0-9]*[_.-]
-(\.|^)a\.adtng\.com$
 cdnegc.trafficfactory.biz
 cdnegc.trafficfactory.biz/banners
-(^|\.)cdnegc\.trafficfactory\.biz$
-^analytics?[_.-]
-(\.|^)ads.traffichunt.com$
-(\.|^)cdn.itsup.com$
 
 # Other / unknown
 a3rmgo6lylh7yn.us-east-1.prod.service.minerva.devices.a2z.com
